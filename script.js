@@ -97,10 +97,79 @@
 
 
 
-let total=100
-function calculate(){
-  console.log(total)
-  let total=100
+// let total=100
+// function calculate(){
+//   console.log(total)
+//   let total=100
 
-}
-calculate()
+// }
+// calculate()
+
+
+
+
+
+// console.log("first line");
+// setTimeout(()=>{
+//     console.log("after 2 sec")
+// },2000);
+// console.log("second line")
+
+
+
+
+// setTimeout(()=>{
+//     alert("alert after 3 sec!!")
+// },3*1000);
+
+
+// setInterval(()=>{
+//     console.log("hello world!")
+// },2000); 
+
+
+
+// const timerId=setInterval(()=>{
+//     console.log("hello world!!")
+// },1000);
+
+// //console.log(timerId)
+// setTimeout(()=>{
+//     clearInterval(timerId)
+// },10*1000);
+
+
+
+// setTimeout(()=> console.log(1), 2000);
+// setTimeout(()=> console.log(2), 2000);
+// setTimeout(()=> console.log(3), 2000);
+// setTimeout(()=> console.log(4), 2000);
+// setTimeout(()=> console.log(5), 2000);
+// setTimeout(()=> console.log(6), 2000);
+// setTimeout(()=> console.log(7), 2000);
+// setTimeout(()=> console.log(8), 2000);
+// setTimeout(()=> console.log(9), 2000);
+// setTimeout(()=> console.log(10),2000);
+
+
+
+// let count=1;
+
+// const id= setInterval(()=>{
+//     if(count===10)clearInterval(id)
+//     console.log(count)
+//     count++;
+// },1000);
+
+
+
+
+
+
+
+
+
+
+
+
+
