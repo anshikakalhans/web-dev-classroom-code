@@ -128,11 +128,9 @@
 // },2000); 
 
 
-
 // const timerId=setInterval(()=>{
 //     console.log("hello world!!")
 // },1000);
-
 // //console.log(timerId)
 // setTimeout(()=>{
 //     clearInterval(timerId)
@@ -140,13 +138,91 @@
 
 
 
-// let count=1;
 
+
+
+// // let count=1;
 // const id= setInterval(()=>{
 //     if(count===10)clearInterval(id)
 //     console.log(count)
 //     count++;
 // },1000);
+
+
+// 2 Feb
+
+// function print(){
+//     console.log("hello students!!")
+// }
+
+// function greet(num){
+//     console.log("welcome to my class");
+//     num()
+// }
+
+// greet(print)
+
+
+// function print(name){
+//     console.log("hello students!", name)
+// }
+
+// function greet(num){
+//     console.log("welcome to my class!")
+//     setTimeout(()=>{
+//         console.log("Inside SetTimeout")
+//         let firstName="Alex"
+//         num(firstName)
+//     },2000);
+// }
+// greet(print)
+
+
+// console.log("starting homework...");
+
+// setTimeout(()=>{
+//     console.log("homework done!");
+//     console.log("starting dinner...");
+
+//     setTimeout(()=>{
+//         console.log("dinner done!");
+//         console.log("getting ready to go out...");
+
+//         setTimeout(()=>{
+//             console.log("going to playground");
+//         },1000); // after dinner
+//     },1500); // dinner time
+// },2000); // homework time
+
+
+// function finishHomework(callback){
+//     console.log("starting homework...");
+//     setTimeout(()=>{
+//         console.log("homework done!");
+//         callback();
+
+//     },2000);
+// }
+
+// function eatDinner(callback){
+//     console.log("starting dinner...");
+//     setTimeout(()=>{
+//         console.log("dinner done!");
+//         callback();
+//     },1500);
+// }
+
+// function goToPlayground(){
+//     console.log("going to the playground!");
+// }
+
+// finishHomework(()=>{
+//     eatDinner(()=>{
+//         goToPlayground();
+//     });
+// });
+
+
 
 
 
