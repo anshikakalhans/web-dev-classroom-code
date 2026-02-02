@@ -140,19 +140,6 @@
 
 
 
-// setTimeout(()=> console.log(1), 2000);
-// setTimeout(()=> console.log(2), 2000);
-// setTimeout(()=> console.log(3), 2000);
-// setTimeout(()=> console.log(4), 2000);
-// setTimeout(()=> console.log(5), 2000);
-// setTimeout(()=> console.log(6), 2000);
-// setTimeout(()=> console.log(7), 2000);
-// setTimeout(()=> console.log(8), 2000);
-// setTimeout(()=> console.log(9), 2000);
-// setTimeout(()=> console.log(10),2000);
-
-
-
 // let count=1;
 
 // const id= setInterval(()=>{
