@@ -223,30 +223,32 @@
 // });
 
 
-const input=document.querySelector("#task")
-const btn=document.querySelector(".btn")
-const list=document.querySelector(".list")
+// const input=document.querySelector("#task")
+// const btn=document.querySelector(".btn")
+// const list=document.querySelector(".list")
 
-btn.addEventListener('click',(e)=>{
-    e.preventDefault()
-    if(input.value===""){
-        alert("enter task")
-        return
-    }
-    const li=document.createElement('li')
-    const deleteButton=document.createElement('button')
+// btn.addEventListener('click',(e)=>{
+//     e.preventDefault()
+//     if(input.value===""){
+//         alert("enter task")
+//         return
+//     }
+//     const li=document.createElement('li')
+//     const deleteButton=document.createElement('button')
 
-    deleteButton.innerText="Delete"
+//     deleteButton.innerText="Delete"
 
-    li.innerText=input.value 
-    li.appendChild(deleteButton)
-    list.appendChild(li)
+//     li.innerText=input.value 
+//     li.appendChild(deleteButton)
+//     list.appendChild(li)
 
-    deleteButton.addEventListener('click',()=>{
-        list.removeChild(li)
-    })
-    input.value=""
-})
+//     deleteButton.addEventListener('click',()=>{
+//         list.removeChild(li)
+//     })
+//     input.value=""
+// })
+
+
 
 
 
