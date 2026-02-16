@@ -354,6 +354,133 @@
 
 
 
+// 16 Feb
+
+// function orderFood(){
+//     return new Promise(function(resolve,reject){
+//         setTimeout(()=>{
+//             console.log("Food Ordered")
+//             resolve("Food Ordered")
+//         },1000)
+//     })
+// }
+
+// function prepareFood(){
+//     return new Promise(function(resolve,reject){
+//         setTimeout(()=>{
+//             console.log("Food Prepared")
+//             resolve("Food Prepared")
+//         },1000)
+//     })
+
+// }
+
+// function deliverFood(){
+//     return new Promise(function(resolve,reject){
+//         setTimeout(()=>{
+//             console.log("Food Delivered")
+//             resolve("Food Delivered")
+//         },1000)
+//     })
+
+// }
+
+// async function order(){
+//     const data = await orderFood()
+//     console.log(data)
+//     await prepareFood()
+//     await deliverFood()
+
+// }
+
+// order()
+
+// orderFood().then((data)=>{
+//     console.log(data)
+//     return prepareFood()
+
+// }).then((data)=>{
+//     console.log(data)
+//     return deliverFood()
+// }).then((data)=>{
+//     console.log(data)
+// }).catch((err)=>{
+//     console.log(err)
+// })
+
+
+
+
+
+// try-catch-finally
+
+// console.log("first line");
+// try{
+//     // let sample = 324
+//     // console.log(sample)
+//     let age= 15
+//     if(age<18){
+//         //error
+//         throw new Error("Access Denied")
+//     }
+// }catch(error){
+//     console.log(error)
+// }finally{
+//     console.log("finally block")
+// }
+// console.log("last line");
+
+
+
+
+
+// async function getData(){
+//     try{
+//         const response = await fetch("https://dummyjson.com/products")
+//         console.log(response.ok)
+//         if(response.ok===false)throw new Error("Data not found")
+//         const data=await response.json()
+//         console.log(data)
+//         // data.products.forEach(ele)=>{
+//         // console.log(ele.price)
+//         //})
+//     }catch(error){
+//         console.log("Data not found")
+//     }
+// }
+
+// getData()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
